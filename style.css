@@ -1,12 +1,14 @@
 @font-face {
-    font-family: 'youtube_starregular';
-    src: url('youtube_star-webfont.woff2') format('woff2'),
-         url('youtube_star-webfont.woff') format('woff');
+    font-family: 'youtube_star';
+    src: url('polices/youtube_star-webfont.woff2') format('woff2'),
+         url('polices/youtube_star-webfont.woff') format('woff'),
+         url('polices/youtube_star-webfont.ttf') format('truetype'),
+         url('polices/youtube_star-webfont.svg#youtube_starregular') format('svg');
     font-weight: normal;
     font-style: normal;
 
 }
 h1
 {
-    font-family: 'youtube_star';
+    font-family: youtube_star;
 }
