@@ -73,6 +73,11 @@ section h1, footer h1, nav a
 }
 #banniére
 {
-background-image: url("images/sanfrancisco.jpg");
-height: 215px;
+    margin-top: 15px;
+    background: url("images/sanfrancisco.jpg") no-repeat;
+    position: relative;
+    height: 215px;
+border-radius: 5px;
+box-shadow: 0px 4px 4px #1c1a19;
+margin-bottom: 25px;
 }
